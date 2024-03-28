@@ -18,7 +18,7 @@ inThisBuild(
 
 lazy val scala212 = "2.12.15"
 lazy val scala213 = "2.13.6"
-lazy val scala3   = "3.0.2"
+lazy val scala3   = "3.4.1"
 
 ThisBuild / scalaVersion := scala213
 ThisBuild / scalafixDependencies += organizeImports
